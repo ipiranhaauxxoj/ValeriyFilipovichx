@@ -6,7 +6,7 @@ class QueueClass{
     int[] queueMass;       // массив целочисленных значений
     int queueBegin = 0;   // начало очереди
     int queueEnd = 0;    // конец очереди
-    int index = 0;      // длина очереди
+    int index = 0;      // отслеживаемая длина очереди
 
     // Конструктор, принимающий значение длины очереди (массива) при создании объекта класса
     QueueClass(int n)
@@ -23,7 +23,6 @@ class QueueClass{
 
     // Метод Put для добавления элемента в конец очереди
     public void queuePut(int newElement){
-
         if (index != queueMass.length) {
             queueMass[index] = newElement;
         }
@@ -155,8 +154,6 @@ public class Main {
         }
         System.out.print("----------------\n");
 
-
-
         int[] QueueAllElements = newQueue.queueGetAll(); //
                                                         //
         System.out.print("\n-------------Полученная очередь (GetAll): ");
@@ -165,13 +162,8 @@ public class Main {
         }
         System.out.print("----------------\n");
 
-
-
-
-
-
         double averageValue = newQueue.queueFindAverage();
-        System.out.print("----------------Среднее значение (queueFindAverage): " +
+        System.out.print("----------------Среднее значение массива (queueFindAverage): " +
                             averageValue + "----------------\n");
     }
 }
