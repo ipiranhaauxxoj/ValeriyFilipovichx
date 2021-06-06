@@ -52,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/PZ_14-15" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -105,6 +105,7 @@
       <updated>1612358396193</updated>
       <workItem from="1612358399254" duration="11522000" />
       <workItem from="1612510439421" duration="421000" />
+      <workItem from="1612598706414" duration="76000" />
     </task>
     <servers />
   </component>
@@ -129,10 +130,10 @@
     </state>
     <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1612358472730" />
     <state x="311" y="0" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1612510465916" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612510859216">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1612598780707">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612510859216" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612598780707" />
     <state width="1493" height="72" key="GridCell.Tab.0.bottom" timestamp="1612390485076">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -149,5 +150,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="72" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1612390485076" />
+    <state x="342" y="140" key="new project wizard" timestamp="1612598781874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1612598781874" />
   </component>
 </project>
