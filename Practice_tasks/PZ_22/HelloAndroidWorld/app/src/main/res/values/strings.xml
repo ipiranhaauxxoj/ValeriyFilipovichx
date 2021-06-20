@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello, Android World!</string>
+    <string name="app_name">HelloAndroidWorld</string>
+    <string name="sun">Солнце</string>
+    <string name="grass">Трава</string>
+    <string name="sky">Небо</string>
+    <string name="clock">Часы</string>
+    <string name="hour">Стрелка</string>
+</resources>
