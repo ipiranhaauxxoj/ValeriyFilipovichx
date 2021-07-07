@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="textViewStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/large_font_size</item>
+        <item name="android:background">@color/view_bkg_color</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+</resources>
