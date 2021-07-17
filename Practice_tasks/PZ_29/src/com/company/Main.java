@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Файл: "+fileText);
         char[] arr = fileText.toCharArray();
         int n = arr.length * 8;
-        //генерируем ключ (гамму)
+     
         String keyBin =Long.toString(ShiftRegister & 0x01);
         for(int i = 0; i <n-1; i++) {
             ShiftRegister = ((((ShiftRegister >> 5) ^ (ShiftRegister >> 2)) & 0x01) << 5) | (ShiftRegister >> 1);
@@ -42,13 +42,13 @@ public class Main {
         System.out.println("Файл (hex): "+openHex);
         System.out.println("Файл (bin): "+openBin);
 
-        //выполняем операцию xor между гаммой и исходным текстом
+
         String closeBin = "", closeHex = "";
         for (int i = 0, j = 0; i < keyBin.length(); i++, j++)
             closeBin += (int)keyBin.charAt(i)^(int) openBin.charAt(i);
         System.out.println("Зашифрованное сообщение (bin): "+closeBin);
 
-        //переводим зашифрованный текст в hex и bin системы
+
         String[] A = closeBin.split("(?<=\\G.{8})");
         String closet = "";
         for (int i =0 ; i<A.length;i++ )
@@ -66,7 +66,7 @@ public class Main {
 
         System.out.println("\nДЕШИФРОВАНИЕ");
         String openDBin = "";
-        //выполняем операцию xor между ключом и зашифрованным текстом
+
         for (int i = 0, j = 0; i < keyBin.length(); i++, j++)
             openDBin += (int)keyBin.charAt(i)^(int) closeBin.charAt(i);
         System.out.println("Текст после дешифрации (bin): "+openDBin);
